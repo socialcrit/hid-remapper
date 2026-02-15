@@ -9,7 +9,7 @@ const uint8_t REPORT_ID_MOUSE = 1;
 const uint8_t REPORT_ID_KEYBOARD = 2;
 const uint8_t REPORT_ID_CONSUMER = 3;
 
-// VEC USB Footpedal Report Descriptor
+// VEC USB Footpedal Report Descriptor 
 // Consumer Page - Programmable Buttons (3 buttons)
 static const uint8_t footpedal_report_descriptor[] = {
     0x05, 0x0C,  // Usage Page (Consumer)
